@@ -4,5 +4,13 @@
 
 @layer base {
     body {
+        font-family: 'Roboto', sans-serif;
+        min-width: 320px;
+    }
+}
+
+@layer components {
+    .container {
+        @apply max-w-[1180px];
     }
 }
