@@ -542,3 +542,15 @@ body {
 .font-bold {
   font-weight: 700;
 }
+
+@font-face {
+  font-family: 'Geometria';
+
+  font-display: swap;
+
+  src: url('../fonts/geometria_bold.otf') format('otf');
+
+  font-weight: 700;
+
+  font-style: normal;
+}

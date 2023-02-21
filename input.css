@@ -14,3 +14,11 @@
         @apply max-w-[1180px];
     }
 }
+
+@font-face {
+    font-family: 'Geometria';
+    font-display: swap;
+    src: url('../fonts/geometria_bold.otf') format('otf');
+    font-weight: 700;
+    font-style: normal;
+}
