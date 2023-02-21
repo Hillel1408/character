@@ -1,0 +1,22 @@
+{
+  "name": "auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hillel1408/auto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hillel1408/auto/issues"
+  },
+  "homepage": "https://github.com/Hillel1408/auto#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
