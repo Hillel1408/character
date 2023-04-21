@@ -1,1 +1,6 @@
-//All styles can be added here.
+.text {
+    @apply text-base leading-5 text-green underline;
+}
+.title {
+    @apply text-center font-['Cormorant_Infant'] text-2xl leading-7 text-green;
+}
