@@ -1,6 +1,18 @@
 .text {
-    @apply text-base leading-5 text-green underline;
+    @apply text-base leading-5 text-green;
 }
 .title {
     @apply text-center font-['Cormorant_Infant'] text-2xl leading-7 text-green;
+}
+.subtitle {
+    @apply text-center font-['Tenor_Sans'] text-[22px] leading-[125%] text-green;
+}
+.list__item {
+    @apply font-['Tenor_Sans'] text-sm leading-4 text-green;
+}
+.block {
+    @apply flex h-[120px] w-[120px] items-center overflow-hidden rounded-[50%] border-[1px] border-brown bg-[rgba(217,217,217,0.9)] text-center font-['Cormorant_Infant'] text-lg leading-[100%] text-brown;
+}
+.subtitle2 {
+    @apply text-center text-2xl font-light leading-7 text-green;
 }

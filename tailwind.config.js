@@ -24,6 +24,7 @@ module.exports = {
                 brown: '#6D5E3C',
                 green: '#5C704E',
                 lightBrown: '#EDEAE7',
+                grey: '#DBDBDA',
             },
         },
     },
