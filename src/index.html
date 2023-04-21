@@ -7,9 +7,9 @@
         <title>character</title>
         <link rel="stylesheet" type="text/css" href="./css/style.css" />
     </head>
-    <body class="">
+    <body>
         @@include('./html/header.html')
-        <main class="px-3 pb-[40px] pt-[20px]">
+        <main class="bg-lightBrown px-3 pb-[40px] pt-[20px]">
             <section class="mb-10 flex flex-col gap-[40px]">
                 <div>
                     <h1 class="title mb-5">Клуб “Давай поиграем!”</h1>
@@ -54,13 +54,39 @@
                     </p>
                 </div>
             </section>
-            <section>
-                <div>
+            <section class="mb-10">
+                <div
+                    class="flex flex-col items-center gap-5 text-center text-green"
+                >
                     <h2 class="subtitle2 mb-5">
                         Организовать детский праздник или заказать еду с
                         доставкой стало еще проще!
                     </h2>
+                    <p>
+                        Наш клуб “Давай поиграем” и студия вкуса “Характер” -
+                        это сочетание великолепной кухни, уютного интерьера и
+                        многообразия развлекательных программ.
+                    </p>
+                    <p>
+                        Мы очень ценим те моменты, когда семья собирается за
+                        общим столом, и с любовью создаем для вас все условия
+                        для комфортного семейного досуга.
+                    </p>
+                    <p>
+                        Забота о гостях, их комфорте, безопасности и отличном
+                        настроении – наша главная задача.
+                    </p>
+                    <a href="#" class="custom__btn border-[1px] border-brown"
+                        >Узнайте нас лучше</a
+                    >
                 </div>
+            </section>
+            <section class="mb-10 flex flex-col items-center gap-3">
+                <a href="#" class="custom__btn border-[1px] border-brown"
+                    >Студия вкуса</a
+                >
+                <a href="#" class="custom__btn">Детский клуб</a>
+                <a href="#" class="custom__btn">Наши блюда</a>
             </section>
         </main>
         @@include('./html/footer.html')
