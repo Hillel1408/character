@@ -10,12 +10,12 @@
 .list__item {
     @apply font-['Tenor_Sans'] text-sm leading-4 text-green;
 }
-.block {
+.custom__block {
     @apply flex h-[120px] w-[120px] items-center overflow-hidden rounded-[50%] border-[1px] border-brown bg-[rgba(217,217,217,0.9)] text-center font-['Cormorant_Infant'] text-lg leading-[100%] text-brown;
 }
 .subtitle2 {
     @apply text-center font-['ManegeDemo'] text-2xl font-light leading-7 text-green;
 }
 .custom__btn {
-    @apply inline-block w-[319px] rounded-[40px] bg-[rgba(217,217,217,0.9)] py-5 text-center font-['Cormorant_Infant'] text-2xl leading-[100%] text-brown;
+    @apply inline-block w-[290px] rounded-[40px] bg-[rgba(217,217,217,0.9)] py-5 text-center font-['Cormorant_Infant'] text-2xl leading-[100%] text-brown;
 }

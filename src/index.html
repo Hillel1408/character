@@ -4,10 +4,14 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>character</title>
+        <title>Character</title>
         <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+        />
     </head>
-    <body>
+    <body class="min-w-[320px]">
         @@include('./html/header.html')
         <main class="bg-lightBrown px-3 pb-[40px] pt-[20px]">
             <section class="mb-10 flex flex-col gap-[40px]">
@@ -22,7 +26,7 @@
                             alt=""
                         />
                         <div class="absolute bottom-5 left-0 right-0">
-                            <a href="#" class="mx-auto my-0 block">
+                            <a href="#" class="custom__block mx-auto my-0">
                                 Заказать праздник
                             </a>
                         </div>
@@ -42,9 +46,14 @@
                             src="img/img-3.jpg"
                             alt=""
                         />
-                        <div class="absolute bottom-5 left-0 right-0">
-                            <a href="#" class="mx-auto my-0 block">
-                                Заказать праздник
+                        <div
+                            class="absolute bottom-5 left-0 right-0 flex justify-center"
+                        >
+                            <a href="#" class="custom__block">
+                                Заказать банкет
+                            </a>
+                            <a href="#" class="custom__block ml-[-10px]">
+                                Заказать доставку
                             </a>
                         </div>
                     </div>
@@ -81,6 +90,41 @@
                     >
                 </div>
             </section>
+            <section class="swiper swiper-image mb-5 w-full">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img
+                            class="h-[275px] w-full rounded-[40px] object-cover"
+                            src="img/img-4.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            class="h-[275px] w-full rounded-[40px] object-cover"
+                            src="img/img-5.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            class="h-[275px] w-full rounded-[40px] object-cover"
+                            src="img/img-6.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div
+                    class="swiper-button-prev !left-3 !top-auto bottom-3 !h-[60px] !w-[60px] rounded-full bg-[rgba(219,219,219,0.9)] after:hidden"
+                >
+                    <img src="img/icon-4.png" alt="" />
+                </div>
+                <div
+                    class="swiper-button-next !right-3 !top-auto bottom-3 !h-[60px] !w-[60px] rounded-full bg-[rgba(219,219,219,0.9)] after:hidden"
+                >
+                    <img src="img/icon-5.png" alt="" />
+                </div>
+            </section>
             <section class="mb-10 flex flex-col items-center gap-3">
                 <a href="#" class="custom__btn border-[1px] border-brown"
                     >Студия вкуса</a
@@ -88,8 +132,111 @@
                 <a href="#" class="custom__btn">Детский клуб</a>
                 <a href="#" class="custom__btn">Наши блюда</a>
             </section>
+            <section class="mb-10">
+                <h2 class="subtitle2 mb-5">
+                    Мы очень ценим ваши отзывы о нас и благодарим вас за доверие
+                </h2>
+                <div class="swiper swiper-reviews w-full">
+                    <div class="swiper-wrapper pb-[46px]">
+                        <div
+                            class="swiper-slide text-center text-lg leading-[125%] text-green"
+                        >
+                            <p class="mb-6">
+                                Спасибо, что цените нас за простые, вкусные
+                                блюда, за гостеприимство и доброжелательность, а
+                                еще – за возможность комфортного досуга, который
+                                можно разделить с ребенком.
+                            </p>
+                            <p class="font-medium">
+                                7 марта 2023 г. проводили праздничный корпоратив
+                                в студии вкуса "Характер". Хотим выразить
+                                огромную благодарность всему коллективу
+                                данногозаведение за создание праздничной
+                                атмосферы, фантастического настроения,
+                                доброжелательность, внимание и индивидуальный
+                                подход...
+                            </p>
+                        </div>
+                        <div
+                            class="swiper-slide text-center text-lg leading-[125%] text-green"
+                        >
+                            <p class="mb-6">
+                                Спасибо, что цените нас за простые, вкусные
+                                блюда, за гостеприимство и доброжелательность, а
+                                еще – за возможность комфортного досуга, который
+                                можно разделить с ребенком.
+                            </p>
+                            <p class="font-medium">
+                                7 марта 2023 г. проводили праздничный корпоратив
+                                в студии вкуса "Характер". Хотим выразить
+                                огромную благодарность всему коллективу
+                                данногозаведение за создание праздничной
+                                атмосферы, фантастического настроения,
+                                доброжелательность, внимание и индивидуальный
+                                подход...
+                            </p>
+                        </div>
+                        <div
+                            class="swiper-slide text-center text-lg leading-[125%] text-green"
+                        >
+                            <p class="mb-6">
+                                Спасибо, что цените нас за простые, вкусные
+                                блюда, за гостеприимство и доброжелательность, а
+                                еще – за возможность комфортного досуга, который
+                                можно разделить с ребенком.
+                            </p>
+                            <p class="font-medium">
+                                7 марта 2023 г. проводили праздничный корпоратив
+                                в студии вкуса "Характер". Хотим выразить
+                                огромную благодарность всему коллективу
+                                данногозаведение за создание праздничной
+                                атмосферы, фантастического настроения,
+                                доброжелательность, внимание и индивидуальный
+                                подход...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination !bottom-[15px]"></div>
+                    <div class="hidden">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="custom__btn border-[1px] border-brown"
+                        >Узнайте нас лучше</a
+                    >
+                </div>
+            </section>
+            <section>
+                <div
+                    class="flex flex-col items-center gap-5 text-center text-green"
+                >
+                    <h2 class="subtitle2 mb-5">Как с нами связаться</h2>
+                    <p>
+                        С удовольствием организуем ваше мероприятие, а также
+                        вкусно накормим в нашей студии вкуса. Работаем только по
+                        предварительной записи! По всем вопросам пишите в
+                        WhatsApp
+                    </p>
+                    <p>Работаем только по предварительной записи!</p>
+                    <p>
+                        Мы на связи Whats App:
+                        <a href="https://wa.clck.bar/79146756901"
+                            >+7(914)675-69-01</a
+                        >
+                    </p>
+                    <div class="flex">
+                        <a href="#" class="custom__block">Заказать банкет</a>
+                        <a href="#" class="custom__block ml-[-20px]"
+                            >Заказать доставку</a
+                        >
+                    </div>
+                </div>
+            </section>
         </main>
         @@include('./html/footer.html')
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <script src="./js/scripts.js"></script>
     </body>
 </html>
