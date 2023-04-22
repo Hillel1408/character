@@ -22,3 +22,9 @@
 .custom__container {
     @apply px-3 xl:mx-auto xl:max-w-[1280px];
 }
+.mobile-menu {
+    @apply invisible opacity-0;
+}
+.mobile-menu.active {
+    @apply visible opacity-[1];
+}

@@ -15,9 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
         },
         spaceBetween: 20,
     });
-});
-window.addEventListener('DOMContentLoaded', () => {
-    const swiper = new Swiper('.swiper-reviews', {
+    const swiperReviews = new Swiper('.swiper-reviews', {
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
@@ -26,5 +24,18 @@ window.addEventListener('DOMContentLoaded', () => {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+    });
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const openBtn = document.querySelector('.mobile-menu__open');
+    const closeBtn = document.querySelector('.mobile-menu__close');
+
+    openBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+        document.body.style.overflow = 'hidden';
+    });
+
+    closeBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+        document.body.style.overflow = 'initial';
     });
 });
