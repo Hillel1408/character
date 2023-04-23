@@ -2,7 +2,7 @@
     @apply text-base leading-5 text-green lg:text-lg lg:leading-[22px];
 }
 .title {
-    @apply text-center font-['Cormorant_Infant'] text-2xl leading-7 text-green lg:text-4xl lg:leading-[45px];
+    @apply text-center font-['Cormorant_Infant'] text-2xl italic leading-7 text-green lg:text-4xl lg:leading-[45px];
 }
 .subtitle {
     @apply text-center font-['Tenor_Sans'] text-[22px] leading-[125%] text-green lg:text-2xl lg:leading-[30px];

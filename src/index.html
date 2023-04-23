@@ -13,12 +13,14 @@
     </head>
     <body class="min-w-[320px]">
         @@include('./html/header.html')
-        <main class="bg-lightBrown pb-[40px] pt-[20px] lg:pt-[60px]">
+        <main
+            class="bg-lightBrown pb-[40px] pt-[20px] lg:pb-[90px] lg:pt-[60px]"
+        >
             <div class="custom__container">
                 <section
                     class="mb-10 flex flex-col gap-[40px] sm:flex-row lg:mb-[90px] lg:gap-[24px]"
                 >
-                    <div>
+                    <div class="sm:w-[50%]">
                         <h1 class="title mb-5 lg:mb-[30px]">
                             Клуб “Давай поиграем!”
                         </h1>
@@ -46,7 +48,7 @@
                             все необходимое!
                         </p>
                     </div>
-                    <div>
+                    <div class="sm:w-[50%]">
                         <h2 class="subtitle2 mb-5 lg:mb-[30px]">
                             Студия вкуса “Характер”
                         </h2>
@@ -309,8 +311,8 @@
                     <div
                         class="flex flex-col items-center gap-5 text-center text-green"
                     >
-                        <h2 class="subtitle2 mb-5">Как с нами связаться</h2>
-                        <p>
+                        <h2 class="subtitle2">Как с нами связаться</h2>
+                        <p class="max-w-[630px]">
                             С удовольствием организуем ваше мероприятие, а также
                             вкусно накормим в нашей студии вкуса. Работаем
                             только по предварительной записи! По всем вопросам
@@ -318,13 +320,11 @@
                         </p>
                         <div class="md:flex md:w-full md:gap-6">
                             <div
-                                class="flex flex-col items-center gap-5 text-center text-green md:w-[50%] md:items-center md:overflow-hidden md:rounded-bl-[169px] md:rounded-tr-[169px] md:bg-dots md:px-[24px] md:pb-[30px] md:pt-[60px] lg:items-start lg:rounded-bl-[269px] lg:rounded-tr-[269px] lg:pl-[84px]"
+                                class="flex flex-col items-center gap-5 text-center text-green md:w-[50%] md:items-center md:overflow-hidden md:rounded-bl-[169px] md:rounded-tr-[169px] md:bg-dots md:px-[24px] md:pb-[30px] md:pt-[60px] lg:items-start lg:rounded-bl-[269px] lg:rounded-tr-[269px] lg:px-[44px]"
                             >
-                                <h2
-                                    class="title hidden md:mb-[30px] md:block md:text-4xl"
-                                >
+                                <h2 class="title hidden md:block xl:text-start">
                                     Клуб “Давай поиграем!” <br />
-                                    <span class="subtitle2 !text-4xl"
+                                    <span class="subtitle2 not-italic"
                                         >и студия вкуса “Характер”</span
                                     >
                                 </h2>
@@ -337,15 +337,19 @@
                                         >+7(914)675-69-01</a
                                     >
                                 </p>
-                                <p>
+                                <p class="xl:text-start">
                                     Наш адрес: <br />
                                     Находка, Ленинская 20
                                 </p>
-                                <div class="flex">
+                                <div
+                                    class="flex lg:ml-12 xl:ml-0 xl:mr-[30px] xl:w-full xl:justify-end"
+                                >
                                     <a href="#" class="custom__block"
                                         >Заказать банкет</a
                                     >
-                                    <a href="#" class="custom__block ml-[-20px]"
+                                    <a
+                                        href="#"
+                                        class="custom__block ml-[-20px] xl:ml-[-60px] xl:-translate-y-[90px]"
                                         >Заказать доставку</a
                                     >
                                 </div>
@@ -354,7 +358,7 @@
                                 class="hidden overflow-hidden md:block md:w-[50%] md:rounded-br-[169px] md:rounded-tl-[169px] lg:rounded-br-[269px] lg:rounded-tl-[269px]"
                             >
                                 <img
-                                    class="h-full w-full object-cover lg:h-[539px]"
+                                    class="h-full w-full object-cover"
                                     src="img/img-9.jpg"
                                     alt=""
                                 />
