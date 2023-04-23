@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Character</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+        />
+    </head>
+    <body class="min-w-[320px]">
+        <header
+    class="border-b-[1px] border-[rgba(92,112,78,0.25)] bg-lightBrown py-3 lg:py-[18px]"
+>
+    <div class="custom__container flex items-center gap-x-[38px]">
+        <button class="mobile-menu__open md:hidden">
+            <img src="img/icon-1.png" alt="" />
+        </button>
+        <div
+            class="flex flex-auto items-center justify-end gap-x-[38px] lg:gap-x-[70px]"
+        >
+            <div
+                class="mobile-menu absolute left-0 top-0 z-[1] flex h-full w-full min-w-[320px] items-center justify-center bg-lightBrown duration-100 ease-in md:visible md:static md:opacity-[1]"
+            >
+                <svg
+                    viewBox="0 0 32 32"
+                    class="mobile-menu__close absolute left-[15px] top-[25px] w-[20px] md:hidden"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                                stroke: #5c704e;
+                                stroke-linecap: round;
+                                stroke-linejoin: round;
+                                stroke-width: 2px;
+                            }
+                        </style>
+                    </defs>
+                    <title />
+                    <g id="cross">
+                        <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+                        <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+                    </g>
+                </svg>
+                <ul
+                    class="flex flex-col flex-wrap gap-x-[34px] text-lg text-green md:flex-row md:justify-start"
+                >
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Детский клуб</a>
+                    </li>
+                    <li>
+                        <a href="#">Студия вкуса</a>
+                    </li>
+                    <li>
+                        <a href="#">Меню</a>
+                    </li>
+                    <li>
+                        <a href="#">Галерея</a>
+                    </li>
+                    <li>
+                        <a href="#">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div
+                class="flex h-12 min-w-[48px] items-center justify-center rounded-full bg-brown"
+            >
+                <img src="img/icon-2.png" alt="" />
+            </div>
+            <a class="text underline lg:ml-[28px]" href="#">Войти</a>
+        </div>
+    </div>
+</header>
+
+        <main class="bg-lightBrown pb-[40px] lg:pb-[90px] lg:pt-[60px]">
+            <div class="custom__container pt-[20px]">
+                <section
+                    class="mb-10 flex flex-col gap-[40px] sm:flex-row lg:mb-[90px] lg:gap-[24px]"
+                >
+                    <div class="sm:w-[50%]">
+                        <h1 class="title mb-5 lg:mb-[30px]">
+                            Клуб “Давай поиграем!”
+                        </h1>
+                        <div
+                            class="relative mb-5 w-full overflow-hidden rounded-t-[50%] lg:mb-[30px] lg:rounded-t-none lg:rounded-bl-[269px] lg:rounded-tr-[269px]"
+                        >
+                            <img
+                                class="h-[275px] w-full object-cover lg:h-[539px]"
+                                src="img/img-1.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 lg:bottom-[30px]"
+                            >
+                                <a
+                                    href="#"
+                                    class="custom__block mx-auto my-0 lg:mr-[30px]"
+                                >
+                                    Заказать праздник
+                                </a>
+                            </div>
+                        </div>
+                        <p class="text text-center">
+                            Тематику для праздника выбираете вы, а мы создаем
+                            все необходимое!
+                        </p>
+                    </div>
+                    <div class="sm:w-[50%]">
+                        <h2 class="subtitle2 mb-5 lg:mb-[30px]">
+                            Студия вкуса “Характер”
+                        </h2>
+                        <div
+                            class="relative mb-5 w-full overflow-hidden rounded-t-[50%] lg:mb-[30px] lg:rounded-t-none lg:rounded-br-[269px] lg:rounded-tl-[269px]"
+                        >
+                            <img
+                                class="h-[275px] w-full object-cover lg:h-[539px]"
+                                src="img/img-20.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 flex justify-center lg:bottom-[30px] lg:ml-[30px] lg:justify-start"
+                            >
+                                <a href="#" class="custom__block lg:p-2">
+                                    Заказать банкет
+                                </a>
+                                <a
+                                    href="#"
+                                    class="custom__block ml-[-10px] lg:ml-[-20px] lg:-translate-y-[30px]"
+                                >
+                                    Заказать доставку
+                                </a>
+                            </div>
+                        </div>
+                        <p class="text text-center">
+                            Закажи доставку или самовывоз вкуснейших блюд из
+                            нашего меню с Характером
+                        </p>
+                    </div>
+                </section>
+                <section
+                    class="mb-10 lg:mb-[90px] lg:flex lg:items-end lg:gap-6"
+                >
+                    <div>
+                        <h2
+                            class="subtitle2 mb-5 lg:mb-[30px] lg:max-w-[712px]"
+                        >
+                            Организовать детский праздник или заказать еду с
+                            доставкой стало еще проще!
+                        </h2>
+                        <div
+                            class="lg:flex lg:items-end lg:gap-[35px] xl:gap-[74px]"
+                        >
+                            <div
+                                class="flex flex-col items-center gap-5 text-green lg:mb-[27px] lg:text-lg lg:leading-[22px]"
+                            >
+                                <p>
+                                    Наш клуб “Давай поиграем” и студия вкуса
+                                    “Характер” - это сочетание великолепной
+                                    кухни, уютного интерьера и многообразия
+                                    развлекательных программ.
+                                </p>
+                                <p>
+                                    Мы очень ценим те моменты, когда семья
+                                    собирается за общим столом, и с любовью
+                                    создаем для вас все условия для комфортного
+                                    семейного досуга.
+                                </p>
+                                <p>
+                                    Забота о гостях, их комфорте, безопасности и
+                                    отличном настроении – наша главная задача.
+                                </p>
+                                <a
+                                    href="#"
+                                    class="custom__btn border-[1px] border-brown"
+                                    >Узнайте нас лучше</a
+                                >
+                            </div>
+                            <div
+                                class="hidden min-w-[300px] overflow-hidden rounded-bl-[150px] rounded-tr-[150px] lg:flex"
+                            >
+                                <img
+                                    class="h-[371px] w-full object-cover"
+                                    src="img/img-7.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="hidden overflow-hidden rounded-tl-[232px] rounded-tr-[232px] lg:flex lg:min-w-[300px] xl:min-w-[465px]"
+                    >
+                        <img
+                            class="h-[522px] w-full object-cover"
+                            src="img/img-8.jpg"
+                            alt=""
+                        />
+                    </div>
+                </section>
+                <section class="swiper swiper-image mb-5 w-full lg:mb-[30px]">
+                    <div class="swiper-wrapper sm:flex">
+                        <div class="swiper-slide">
+                            <img
+                                class="h-[275px] w-full rounded-[40px] object-cover md:h-[351px]"
+                                src="img/img-4.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                class="h-[275px] w-full rounded-[40px] object-cover md:h-[351px]"
+                                src="img/img-5.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                class="h-[275px] w-full rounded-[40px] object-cover md:h-[351px]"
+                                src="img/img-6.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="swiper-button-prev !left-3 !top-auto bottom-3 !h-[60px] !w-[60px] rounded-full bg-[rgba(219,219,219,0.9)] after:hidden"
+                    >
+                        <img src="img/icon-4.png" alt="" />
+                    </div>
+                    <div
+                        class="swiper-button-next !right-3 !top-auto bottom-3 !h-[60px] !w-[60px] rounded-full bg-[rgba(219,219,219,0.9)] after:hidden"
+                    >
+                        <img src="img/icon-5.png" alt="" />
+                    </div>
+                </section>
+                <section
+                    class="mb-10 flex flex-col items-center gap-3 md:flex-row md:justify-center md:gap-6 lg:mb-[90px]"
+                >
+                    <a href="#" class="custom__btn border-[1px] border-brown"
+                        >Студия вкуса</a
+                    >
+                    <a href="#" class="custom__btn">Детский клуб</a>
+                    <a href="#" class="custom__btn">Наши блюда</a>
+                </section>
+                <section
+                    class="mb-10 lg:mb-[90px] lg:flex lg:items-end lg:gap-6"
+                >
+                    <div
+                        class="hidden overflow-hidden rounded-tl-[232px] rounded-tr-[232px] lg:flex lg:min-w-[300px] xl:min-w-[465px]"
+                    >
+                        <img
+                            class="h-[522px] w-full object-cover"
+                            src="img/img-8.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="lg:w-[61%]">
+                        <h2
+                            class="subtitle2 mb-5 lg:mb-[30px] lg:ml-auto lg:max-w-[555px] lg:text-left"
+                        >
+                            Мы очень ценим ваши отзывы о нас и благодарим вас за
+                            доверие
+                        </h2>
+                        <div
+                            class="lg:flex lg:items-end lg:gap-[35px] xl:gap-[34px]"
+                        >
+                            <div
+                                class="hidden overflow-hidden rounded-bl-[150px] rounded-tr-[150px] lg:flex"
+                            >
+                                <img
+                                    class="h-[371px] w-full object-cover"
+                                    src="img/img-7.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lg:w-[57%]">
+                                <p
+                                    class="mb-6 text-center text-base leading-[125%] text-green lg:pl-12 lg:text-left lg:text-lg lg:leading-[22px]"
+                                >
+                                    Спасибо, что цените нас за простые, вкусные
+                                    блюда, за гостеприимство и
+                                    доброжелательность, а еще – за возможность
+                                    комфортного досуга, который можно разделить
+                                    с ребенком.
+                                </p>
+                                <div class="swiper swiper-reviews">
+                                    <div
+                                        class="swiper-wrapper pb-[46px] xl:pb-[30px]"
+                                    >
+                                        <div
+                                            class="swiper-slide text-center text-base leading-[125%] text-green lg:text-left lg:text-lg lg:leading-[22px] xl:px-12"
+                                        >
+                                            <p
+                                                class="text-sm font-medium leading-4 lg:text-lg lg:leading-[22px]"
+                                            >
+                                                7 марта 2023 г. проводили
+                                                праздничный корпоратив в студии
+                                                вкуса "Характер". Хотим выразить
+                                                огромную благодарность всему
+                                                коллективу данногозаведение за
+                                                создание праздничной атмосферы,
+                                                фантастического настроения,
+                                                доброжелательность, внимание и
+                                                индивидуальный подход...
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="swiper-slide text-center text-base leading-[125%] text-green lg:text-left lg:text-lg lg:leading-[22px] xl:px-12"
+                                        >
+                                            <p
+                                                class="text-sm font-medium leading-4 lg:text-lg lg:leading-[22px]"
+                                            >
+                                                7 марта 2023 г. проводили
+                                                праздничный корпоратив в студии
+                                                вкуса "Характер". Хотим выразить
+                                                огромную благодарность всему
+                                                коллективу данногозаведение за
+                                                создание праздничной атмосферы,
+                                                фантастического настроения,
+                                                доброжелательность, внимание и
+                                                индивидуальный подход...
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="swiper-slide text-center text-base leading-[125%] text-green lg:text-left lg:text-lg lg:leading-[22px] xl:px-12"
+                                        >
+                                            <p
+                                                class="text-sm font-medium leading-4 lg:text-lg lg:leading-[22px]"
+                                            >
+                                                7 марта 2023 г. проводили
+                                                праздничный корпоратив в студии
+                                                вкуса "Характер". Хотим выразить
+                                                огромную благодарность всему
+                                                коллективу данногозаведение за
+                                                создание праздничной атмосферы,
+                                                фантастического настроения,
+                                                доброжелательность, внимание и
+                                                индивидуальный подход...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="swiper-pagination !bottom-[15px] xl:hidden"
+                                    ></div>
+                                    <div class="hidden xl:block">
+                                        <div
+                                            class="swiper-button-prev after:hidden"
+                                        >
+                                            <img src="img/icon-4.png" alt="" />
+                                        </div>
+                                        <div
+                                            class="swiper-button-next after:hidden"
+                                        >
+                                            <img src="img/icon-5.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <a
+                                        href="#"
+                                        class="custom__btn border-[1px] border-brown"
+                                        >Узнайте нас лучше</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div
+                        class="flex flex-col items-center gap-5 text-center text-green"
+                    >
+                        <h2 class="subtitle2">Как с нами связаться</h2>
+                        <p class="max-w-[630px]">
+                            С удовольствием организуем ваше мероприятие, а также
+                            вкусно накормим в нашей студии вкуса. Работаем
+                            только по предварительной записи! По всем вопросам
+                            пишите в WhatsApp
+                        </p>
+                        <div class="md:flex md:w-full md:gap-6">
+                            <div
+                                class="flex flex-col items-center gap-5 text-center text-green md:w-[50%] md:items-center md:overflow-hidden md:rounded-bl-[169px] md:rounded-tr-[169px] md:bg-dots md:px-[24px] md:pb-[30px] md:pt-[60px] lg:items-start lg:rounded-bl-[269px] lg:rounded-tr-[269px] lg:px-[44px]"
+                            >
+                                <h2 class="title hidden md:block xl:text-start">
+                                    Клуб “Давай поиграем!” <br />
+                                    <span class="subtitle2 not-italic"
+                                        >и студия вкуса “Характер”</span
+                                    >
+                                </h2>
+                                <p>
+                                    Работаем только по предварительной записи!
+                                </p>
+                                <p>
+                                    Мы на связи Whats App:
+                                    <a href="https://wa.clck.bar/79146756901"
+                                        >+7(914)675-69-01</a
+                                    >
+                                </p>
+                                <p class="xl:text-start">
+                                    Наш адрес: <br />
+                                    Находка, Ленинская 20
+                                </p>
+                                <div
+                                    class="flex lg:ml-12 xl:ml-0 xl:mr-[30px] xl:w-full xl:justify-end"
+                                >
+                                    <a href="#" class="custom__block"
+                                        >Заказать банкет</a
+                                    >
+                                    <a
+                                        href="#"
+                                        class="custom__block ml-[-20px] xl:ml-[-60px] xl:-translate-y-[90px]"
+                                        >Заказать доставку</a
+                                    >
+                                </div>
+                            </div>
+                            <div
+                                class="hidden overflow-hidden md:block md:w-[50%] md:rounded-br-[169px] md:rounded-tl-[169px] lg:rounded-br-[269px] lg:rounded-tl-[269px]"
+                            >
+                                <img
+                                    class="h-full w-full object-cover"
+                                    src="img/img-9.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="border-t-[1px] border-[rgba(92,112,78,0.25)] bg-grey py-10">
+    <div
+        class="custom__container flex flex-col gap-5 md:flex-row md:justify-between"
+    >
+        <div>
+            <h3 class="subtitle mb-3 md:text-left">Компания</h3>
+            <ul class="flex flex-col gap-3 text-center md:text-left">
+                <li class="list__item">
+                    <a href="#">Наша команда</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">О нас</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="subtitle mb-3 md:text-left">Информация</h3>
+            <ul class="flex flex-col gap-3 text-center md:text-left">
+                <li class="list__item">
+                    <a href="#">Политика конфиденциальности</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">Согласие на обработку ПД</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="subtitle mb-3 md:text-left lg:text-right">Контакты</h3>
+            <ul
+                class="flex flex-col gap-3 text-center md:text-left lg:text-right"
+            >
+                <li class="list__item">
+                    <a href="tel:603-888">603-888</a>
+                </li>
+                <li class="list__item">
+                    <a href="tel:+7(914)685-89-01">+7(914)685-89-01</a>
+                </li>
+                <li class="list__item">Находка, Ленинская 20</li>
+                <li class="list__item">
+                    <a
+                        href="tel:+7(914)685-89-01"
+                        class="flex items-center justify-center gap-[10px] underline md:justify-start lg:justify-end"
+                        ><img src="img/icon-3.png" alt="" />@kharakter_nhk</a
+                    >
+                </li>
+                <li class="list__item">
+                    <a
+                        href="tel:+7(914)685-89-01"
+                        class="flex items-center justify-center gap-[10px] underline md:justify-start"
+                        ><img src="img/icon-3.png" alt="" />
+                        @davaypoigraem_nhk</a
+                    >
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="./js/scripts.js"></script>
+    </body>
+</html>
