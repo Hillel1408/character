@@ -28,3 +28,10 @@
 .mobile-menu.active {
     @apply visible opacity-[1];
 }
+.swiper-wedding .swiper-pagination-bullet {
+    @apply h-[14px] w-[14px] bg-[#d9d9d9] opacity-[1];
+}
+
+.swiper-reviews .swiper-pagination-bullet {
+    @apply h-[14px] w-[14px] bg-[#d9d9d9] opacity-[1];
+}
