@@ -590,9 +590,6 @@ html {
 .left-0{
   left: 0px;
 }
-.left-4{
-  left: 1rem;
-}
 .left-\[15px\]{
   left: 15px;
 }
@@ -735,6 +732,9 @@ html {
 }
 .min-w-\[320px\]{
   min-width: 320px;
+}
+.min-w-\[340px\]{
+  min-width: 340px;
 }
 .min-w-\[48px\]{
   min-width: 48px;
@@ -879,9 +879,6 @@ html {
 .bg-\[rgba\(219\2c 219\2c 219\2c 0\.9\)\]{
   background-color: rgba(219,219,219,0.9);
 }
-.bg-\[rgba\(255\2c 255\2c 255\2c 0\.5\)\]{
-  background-color: rgba(255,255,255,0.5);
-}
 .bg-brown{
   --tw-bg-opacity: 1;
   background-color: rgb(109 94 60 / var(--tw-bg-opacity));
@@ -898,10 +895,6 @@ html {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -909,10 +902,6 @@ html {
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-.py-\[14px\]{
-  padding-top: 14px;
-  padding-bottom: 14px;
 }
 .pb-\[40px\]{
   padding-bottom: 40px;
@@ -938,6 +927,10 @@ html {
 .font-\[\'ManegeDemo\'\]{
   font-family: 'ManegeDemo';
 }
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 .text-\[22px\]{
   font-size: 22px;
 }
@@ -956,10 +949,6 @@ html {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 .font-medium{
   font-weight: 500;
@@ -982,10 +971,6 @@ html {
 .\!text-\[\#EDEAE7\]{
   --tw-text-opacity: 1 !important;
   color: rgb(237 234 231 / var(--tw-text-opacity)) !important;
-}
-.text-brown{
-  --tw-text-opacity: 1;
-  color: rgb(109 94 60 / var(--tw-text-opacity));
 }
 .text-green{
   --tw-text-opacity: 1;
@@ -1859,14 +1844,6 @@ html {
     padding-left: 100px;
     padding-right: 100px;
   }
-  .xl\:px-\[34px\]{
-    padding-left: 34px;
-    padding-right: 34px;
-  }
-  .xl\:py-\[17px\]{
-    padding-top: 17px;
-    padding-bottom: 17px;
-  }
   .xl\:pb-\[30px\]{
     padding-bottom: 30px;
   }
@@ -1884,9 +1861,5 @@ html {
   }
   .xl\:text-start{
     text-align: start;
-  }
-  .xl\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
