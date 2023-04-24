@@ -26,6 +26,17 @@ window.addEventListener('DOMContentLoaded', () => {
             prevEl: '.swiper-button-prev',
         },
     });
+    const swiperWedding = new Swiper('.swiper-wedding', {
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
     const mobileMenu = document.querySelector('.mobile-menu');
     const openBtn = document.querySelector('.mobile-menu__open');
     const closeBtn = document.querySelector('.mobile-menu__close');

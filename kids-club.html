@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Character</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+        />
+    </head>
+    <body class="min-w-[320px]">
+        <header
+    class="border-b-[1px] border-[rgba(92,112,78,0.25)] bg-lightBrown py-3 lg:py-[18px]"
+>
+    <div class="custom__container flex items-center gap-x-[38px]">
+        <button class="mobile-menu__open md:hidden">
+            <img src="img/icon-1.png" alt="" />
+        </button>
+        <div
+            class="flex flex-auto items-center justify-end gap-x-[38px] lg:gap-x-[70px]"
+        >
+            <div
+                class="mobile-menu absolute left-0 top-0 z-[1] flex h-full w-full min-w-[320px] items-center justify-center bg-lightBrown duration-100 ease-in md:visible md:static md:opacity-[1]"
+            >
+                <svg
+                    viewBox="0 0 32 32"
+                    class="mobile-menu__close absolute left-[15px] top-[25px] w-[20px] md:hidden"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                                stroke: #5c704e;
+                                stroke-linecap: round;
+                                stroke-linejoin: round;
+                                stroke-width: 2px;
+                            }
+                        </style>
+                    </defs>
+                    <title />
+                    <g id="cross">
+                        <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+                        <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+                    </g>
+                </svg>
+                <ul
+                    class="flex flex-col flex-wrap gap-x-[34px] text-3xl text-green md:flex-row md:justify-start md:text-lg"
+                >
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Детский клуб</a>
+                    </li>
+                    <li>
+                        <a href="#">Студия вкуса</a>
+                    </li>
+                    <li>
+                        <a href="#">Меню</a>
+                    </li>
+                    <li>
+                        <a href="#">Галерея</a>
+                    </li>
+                    <li>
+                        <a href="#">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div
+                class="flex h-12 min-w-[48px] items-center justify-center rounded-full bg-brown"
+            >
+                <img src="img/icon-2.png" alt="" />
+            </div>
+            <a class="text underline lg:ml-[28px]" href="#"> Войти </a>
+        </div>
+    </div>
+</header>
+
+        <main class="bg-lightBrown pb-[40px] lg:pb-[90px]">
+            <div
+                class="custom__container mb-10 bg-grey pt-[20px] sm:bg-inherit lg:mb-0"
+            >
+                <section class="mb-[22px]">
+    <ul class="flex text-xs leading-4 text-green lg:text-lg lg:leading-5">
+        <li>
+            <a class="opacity-[0.75]" href="#">Главная</a>
+        </li>
+        <li>
+            <a
+                class="opacity-1 before:mx-[12px] before:inline-block before:content-['/']"
+                href="#"
+                >Студия вкуса</a
+            >
+        </li>
+    </ul>
+</section>
+
+                <section
+                    class="flex flex-col gap-[20px] sm:flex-row lg:mb-[90px] lg:gap-[24px]"
+                >
+                    <div class="sm:w-[50%]">
+                        <div
+                            class="relative w-full overflow-hidden rounded-t-[50%] lg:h-full lg:rounded-t-none lg:rounded-bl-[269px] lg:rounded-tr-[269px]"
+                        >
+                            <img
+                                class="h-[275px] w-full object-cover lg:h-full"
+                                src="img/img-1.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 flex justify-center lg:bottom-[30px] lg:right-[30px] lg:ml-[30px] lg:justify-end"
+                            >
+                                <a href="#" class="custom__block lg:p-2">
+                                    Заказать праздник
+                                </a>
+                                <a
+                                    href="#"
+                                    class="custom__block ml-[-10px] lg:ml-[-20px] lg:hidden lg:-translate-y-[30px]"
+                                >
+                                    Открыть прайс
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:w-[50%]">
+                        <div
+                            class="mb-10 w-full sm:mb-0 sm:flex sm:h-full sm:flex-col sm:justify-center sm:overflow-hidden sm:rounded-t-[50%] sm:bg-grey sm:px-5 sm:pb-4 sm:pt-[40px] lg:rounded-t-none lg:rounded-br-[269px] lg:rounded-tl-[269px] lg:pl-[50px] xl:items-start xl:pb-[30px] xl:pl-[84px] xl:pr-[57px] xl:pt-[112px]"
+                        >
+                            <h2 class="title mb-5 lg:mb-[20px]">
+                                Ваш праздник без хлопот и с удовольствием в
+                                “Давай поиграем!”
+                            </h2>
+                            <p
+                                class="text text-center lg:mb-[47px] xl:text-left"
+                            >
+                                Если вы хотите порадовать своих родных и
+                                близких, ощутить гамму прекрасных эмоций и
+                                организовать незабываемый праздник, — то мы
+                                поможем вам в этом!
+                            </p>
+                            <div class="hidden justify-start lg:flex">
+                                <a href="#" class="custom__block">
+                                    Открыть <br />
+                                    прайс
+                                </a>
+                                <a
+                                    href="#"
+                                    class="custom__block xl:ml-[-20px] xl:-translate-y-[30px]"
+                                >
+                                    <img src="img/img-22.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="custom__container">
+                <section class="mb-[40px] xl:mb-[90px]">
+                    <h2 class="title mb-5 lg:text-left xl:mb-[30px]">
+                        Мы знаем толк в развлечениях! Выбирай свою вечеринку:
+                    </h2>
+                    <div
+                        class="flex flex-col items-start gap-5 md:flex-row md:gap-6 lg:gap-6 xl:items-end"
+                    >
+                        <div
+                            class="mx-auto flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap lg:gap-5"
+                        >
+                            <span class="party">Спа-Бьюти для девочек</span>
+                            <span class="party">Квиз-пати</span>
+                            <span class="party">Пенная вечеринка</span>
+                            <span class="party">Крокодил-пати</span>
+                            <span class="party"
+                                >Балл принцесс и принцев с коронацией</span
+                            >
+                            <span class="party">Пижамная вечеринка</span>
+                            <span class="party">Караоке-вечеринка</span>
+                            <span class="party">Хаги Ваги и Киси Миси</span>
+                            <span class="party">Пиратская морская</span>
+                            <span class="party">Супергерои</span>
+                            <span class="party">Герои любых фильмов</span>
+                            <span class="party">Куклы LOL</span>
+                            <span class="party">Дино-пати</span>
+                            <span class="party"
+                                >Герои любых мультфильмов и сказок</span
+                            >
+                            <span class="party">Чебурашка</span>
+                            <span class="party">Бавл Старс</span>
+                            <span class="party">Трансформеры</span>
+                            <span class="party">Ведущий без костюма</span>
+                            <span class="party">Настольная вечеринка</span>
+                            <span class="party">Майнкрафт</span>
+                            <span class="party !bg-[#6D5E3C] !text-[#EDEAE7]"
+                                >Любая ваша идея</span
+                            >
+                        </div>
+                        <div class="mx-auto flex flex-col items-center">
+                            <div
+                                class="relative mb-5 lg:rotate-[-135deg] lg:rounded-[50%] lg:border-[1px] lg:border-brown lg:border-r-inherit lg:p-[31px]"
+                            >
+                                <div
+                                    class="w-[290px] overflow-hidden rounded-[50%] lg:rotate-[135deg] xl:w-[408px]"
+                                >
+                                    <img
+                                        class="h-[290px] w-full object-cover xl:h-[408px]"
+                                        src="img/img-39.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <img
+                                    class="absolute right-[20px] top-[61px] hidden lg:block xl:right-[40px] xl:top-[71px]"
+                                    src="img/icon-10.png"
+                                    alt=""
+                                />
+                                <img
+                                    class="absolute bottom-[66px] right-[3px] hidden lg:block xl:bottom-[76px] xl:right-[26px]"
+                                    src="img/icon-11.png"
+                                    alt=""
+                                />
+                            </div>
+                            <p
+                                class="mb-5 max-w-[310px] text-center font-['Cormorant_Infant'] text-lg leading-5 text-green"
+                            >
+                                Свяжитесь с нами и мы подберем идеальный вариант
+                                для вашего праздника
+                            </p>
+                            <a
+                                href="#"
+                                class="custom__btn border-[1px] border-brown"
+                                >Узнайте нас лучше</a
+                            >
+                        </div>
+                    </div>
+                </section>
+                <section class="xl:mb-[90px]">
+                    <h2 class="title mb-[20px]">
+                        Создаем праздники, которые дети запомнят навсегда
+                    </h2>
+                    <div
+                        class="mb-[40px] grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3"
+                    >
+                        <div class="master-class">
+                            <img
+                                class="h-[274px] w-full object-cover"
+                                src="img/img-24.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 text-center"
+                            >
+                                <span class="feast"> Мыльное шоу </span>
+                            </div>
+                        </div>
+                        <div class="master-class">
+                            <img
+                                class="h-[274px] w-full object-cover"
+                                src="img/img-25.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 text-center"
+                            >
+                                <span class="feast">
+                                    Ленточное неоновое шоу
+                                </span>
+                            </div>
+                        </div>
+                        <div class="master-class">
+                            <img
+                                class="h-[274px] w-full object-cover"
+                                src="img/img-26.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 text-center"
+                            >
+                                <span class="feast"> Ростовые куклы </span>
+                            </div>
+                        </div>
+                        <div class="master-class">
+                            <img
+                                class="h-[274px] w-full object-cover"
+                                src="img/img-27.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 text-center"
+                            >
+                                <span class="feast"> Серебряное шоу </span>
+                            </div>
+                        </div>
+                        <div class="master-class">
+                            <img
+                                class="h-[274px] w-full object-cover"
+                                src="img/img-28.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 text-center"
+                            >
+                                <span class="feast"> Слайм шоу </span>
+                            </div>
+                        </div>
+                        <div class="master-class">
+                            <img
+                                class="h-[274px] w-full object-cover"
+                                src="img/img-29.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 text-center"
+                            >
+                                <span class="feast"> Пиньята </span>
+                            </div>
+                        </div>
+                        <div class="master-class">
+                            <img
+                                class="h-[274px] w-full object-cover"
+                                src="img/img-30.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 text-center"
+                            >
+                                <span class="feast"> Крио шоу </span>
+                            </div>
+                        </div>
+                        <div class="master-class">
+                            <img
+                                class="h-[274px] w-full object-cover"
+                                src="img/img-31.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 text-center"
+                            >
+                                <span class="feast"> Бумажное шоу </span>
+                            </div>
+                        </div>
+                        <div class="master-class">
+                            <img
+                                class="h-[274px] w-full object-cover"
+                                src="img/img-32.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 text-center"
+                            >
+                                <span class="feast">
+                                    Упакуем ваш подарок!
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="mb-[40px] flex flex-col gap-5 md:flex-row-reverse lg:gap-[100px] xl:mb-[90px]"
+                >
+                    <div class="flex flex-col gap-5">
+                        <h2 class="title">Ваши улыбки - наша работа</h2>
+                        <p class="text">Давайте познакомимся!</p>
+                        <p class="text">
+                            Мы команда, которая любит свою работу! Мы
+                            специализируемся на проведении детских праздников, а
+                            также взрослых мероприятий. Нам подвластны праздники
+                            разного масшатаба.
+                        </p>
+                        <p class="text">
+                            Праздники - это не просто работа, а дело, в которое
+                            мы ежедневно вкладываем душу и частичку себя. Каждый
+                            гость для нас - нет значения, постоянный он или
+                            новый, - это доказательство того, что мы выбрали
+                            свой жизненный путь правильно. Мы любим то, что
+                            делаем и стараемся выполнять Ваши заказы на пределе
+                            своих возможностей, так как не имеем права подвести
+                            никого, кто нам доверяет. Спасибо за то, что Вы со
+                            нами!
+                        </p>
+                        <p class="text">
+                            Наша игровая программа проводится Ведущими и
+                            аниматорами. Ведущий может предлагать игры на любую
+                            тематику, а Аниматор придерживается сценария,
+                            соответствующего образу. Образ может быть из любого
+                            мультфильма/игры и тд. (Например: Маша и медведь,
+                            Харли Квинн, Гонщик, Леди Баг или Бэтмэн.) А может
+                            быть просто тематический образ. (Например:
+                            автомеханик, палеонтолог, или индеец.) Просто
+                            скажите, что нравится ребёнку и Вам.
+                        </p>
+                        <p class="text">
+                            Где бы Вечеринка Вас не застала, мы сделаем так, что
+                            вы будете отрываться по полной!
+                        </p>
+                    </div>
+                    <div class="flex flex-col items-center gap-[20px]">
+                        <div
+                            class="relative lg:rotate-[-45deg] lg:rounded-[50%] lg:border-[1px] lg:border-brown lg:border-r-inherit lg:p-[31px]"
+                        >
+                            <div
+                                class="w-[290px] overflow-hidden rounded-[50%] lg:rotate-[45deg]"
+                            >
+                                <img
+                                    class="h-[290px] w-full object-cover"
+                                    src="img/img-33.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <img
+                                class="absolute right-[20px] top-[61px] hidden lg:block"
+                                src="img/icon-10.png"
+                                alt=""
+                            />
+                            <img
+                                class="absolute bottom-[66px] right-[3px] hidden lg:block"
+                                src="img/icon-11.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="text-center font-['Cormorant_Infant'] text-lg leading-5 text-green"
+                        >
+                            Еще больше информации о наших шоу, мастер-классах и
+                            ценах в нашем прайсе
+                        </p>
+                        <a
+                            href="#"
+                            class="custom__btn border-[1px] border-brown"
+                            >Узнайте нас лучше</a
+                        >
+                    </div>
+                </section>
+                <section class="mb-[40px] xl:mb-[90px]">
+                    <h2 class="title mb-5 lg:text-left xl:mb-0">
+                        Творческие мастер-классы на любой вкус:
+                    </h2>
+                    <div
+                        class="flex flex-col items-start gap-5 md:flex-row md:gap-6 lg:gap-6 xl:items-end xl:gap-0"
+                    >
+                        <div
+                            class="mx-auto flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap lg:gap-6"
+                        >
+                            <span class="creation">Сосиска в тесте</span>
+                            <span class="creation">Бургеры</span>
+                            <span class="creation">Зефирки маршмелоу</span>
+                            <span class="creation">Пицца</span>
+                            <span class="creation">Круассаны</span>
+                            <span class="creation">Пельмени, вареники</span>
+                            <span class="creation">Печенье</span>
+                            <span class="creation">Молочные коктейли</span>
+                            <span class="creation">Капкейки</span>
+                            <span class="creation">Украшение пряников</span>
+                            <span class="creation">Слайм</span>
+                            <span class="creation">Мыловарение</span>
+                            <span class="creation">Авторское мороженое</span>
+                            <span class="creation">Бьюти-бар для девочек</span>
+                            <span class="creation">Волшебная бутылка</span>
+                            <span class="creation">Браслеты из бусин</span>
+                        </div>
+                        <div class="mx-auto flex flex-col items-center">
+                            <div
+                                class="relative mb-5 lg:rotate-[-135deg] lg:rounded-[50%] lg:border-[1px] lg:border-brown lg:border-r-inherit lg:p-[31px]"
+                            >
+                                <div
+                                    class="w-[290px] overflow-hidden rounded-[50%] lg:rotate-[135deg] xl:w-[400px]"
+                                >
+                                    <img
+                                        class="h-[290px] w-full object-cover xl:h-[400px]"
+                                        src="img/img-34.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <img
+                                    class="absolute right-[20px] top-[61px] hidden lg:block xl:right-[40px] xl:top-[71px]"
+                                    src="img/icon-10.png"
+                                    alt=""
+                                />
+                                <img
+                                    class="absolute bottom-[66px] right-[3px] hidden lg:block xl:bottom-[76px] xl:right-[26px]"
+                                    src="img/icon-11.png"
+                                    alt=""
+                                />
+                            </div>
+                            <a
+                                href="#"
+                                class="custom__btn border-[1px] border-brown"
+                                >Узнайте нас лучше</a
+                            >
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="swiper swiper-image mb-5 w-full lg:mb-[30px] xl:mb-[90px]"
+                >
+                    <div class="swiper-wrapper sm:flex">
+                        <div class="swiper-slide">
+                            <img
+                                class="h-[275px] w-full rounded-[40px] object-cover md:h-[351px]"
+                                src="img/img-35.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                class="h-[275px] w-full rounded-[40px] object-cover md:h-[351px]"
+                                src="img/img-36.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                class="h-[275px] w-full rounded-[40px] object-cover md:h-[351px]"
+                                src="img/img-37.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="swiper-button-prev !left-3 !top-auto bottom-3 !h-[60px] !w-[60px] rounded-full bg-[rgba(219,219,219,0.9)] after:hidden"
+                    >
+                        <img src="img/icon-4.png" alt="" />
+                    </div>
+                    <div
+                        class="swiper-button-next !right-3 !top-auto bottom-3 !h-[60px] !w-[60px] rounded-full bg-[rgba(219,219,219,0.9)] after:hidden"
+                    >
+                        <img src="img/icon-5.png" alt="" />
+                    </div>
+                </section>
+                <section>
+                    <div
+                        class="flex flex-col items-center gap-5 text-center text-green"
+                    >
+                        <h2 class="subtitle2">Как с нами связаться</h2>
+                        <p class="max-w-[630px]">
+                            С удовольствием организуем ваше мероприятие, а также
+                            вкусно накормим в нашей студии вкуса. Работаем
+                            только по предварительной записи! По всем вопросам
+                            пишите в WhatsApp
+                        </p>
+                        <div class="md:flex md:w-full md:gap-6">
+                            <div
+                                class="flex flex-col items-center gap-5 text-center text-green md:w-[50%] md:items-center md:overflow-hidden md:rounded-bl-[169px] md:rounded-tr-[169px] md:bg-dots md:px-[24px] md:pb-[30px] md:pt-[60px] lg:items-start lg:rounded-bl-[269px] lg:rounded-tr-[269px] lg:px-[44px]"
+                            >
+                                <h2 class="title hidden md:block xl:text-start">
+                                    Клуб “Давай поиграем!” <br />
+                                    <span class="subtitle2 not-italic">
+                                        и студия вкуса “Характер”
+                                    </span>
+                                </h2>
+                                <p>
+                                    Работаем только по предварительной записи!
+                                </p>
+                                <p class="lg:text-left">
+                                    Мы на связи Whats App: <br />
+                                    <a href="https://wa.clck.bar/79146756901">
+                                        +7(914)675-69-01
+                                    </a>
+                                </p>
+                                <p class="lg:text-start">
+                                    Наш адрес: <br />
+                                    Находка, Ленинская 20
+                                </p>
+                                <div
+                                    class="flex lg:ml-12 xl:ml-0 xl:mr-[30px] xl:w-full xl:justify-end"
+                                >
+                                    <a href="#" class="custom__block">
+                                        Заказать банкет
+                                    </a>
+                                    <a
+                                        href="#"
+                                        class="custom__block ml-[-20px] xl:ml-[-60px] xl:-translate-y-[90px]"
+                                    >
+                                        Заказать доставку
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="hidden overflow-hidden md:block md:w-[50%] md:rounded-br-[169px] md:rounded-tl-[169px] lg:rounded-br-[269px] lg:rounded-tl-[269px]"
+                            >
+                                <img
+                                    class="h-full w-full object-cover"
+                                    src="img/img-38.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="border-t-[1px] border-[rgba(92,112,78,0.25)] bg-grey py-10">
+    <div
+        class="custom__container flex flex-col gap-5 md:flex-row md:justify-between"
+    >
+        <div>
+            <h3 class="subtitle mb-3 md:text-left">Компания</h3>
+            <ul class="flex flex-col gap-3 text-center md:text-left">
+                <li class="list__item">
+                    <a href="#">Наша команда</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">О нас</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="subtitle mb-3 md:text-left">Информация</h3>
+            <ul class="flex flex-col gap-3 text-center md:text-left">
+                <li class="list__item">
+                    <a href="#">Политика конфиденциальности</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">Согласие на обработку ПД</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="subtitle mb-3 md:text-left lg:text-right">Контакты</h3>
+            <ul
+                class="flex flex-col gap-3 text-center md:text-left lg:text-right"
+            >
+                <li class="list__item">
+                    <a href="tel:603-888">603-888</a>
+                </li>
+                <li class="list__item">
+                    <a href="tel:+7(914)685-89-01">+7(914)685-89-01</a>
+                </li>
+                <li class="list__item">Находка, Ленинская 20</li>
+                <li class="list__item">
+                    <a
+                        href="tel:+7(914)685-89-01"
+                        class="flex items-center justify-center gap-[10px] underline md:justify-start lg:justify-end"
+                        ><img src="img/icon-3.png" alt="" />@kharakter_nhk</a
+                    >
+                </li>
+                <li class="list__item">
+                    <a
+                        href="tel:+7(914)685-89-01"
+                        class="flex items-center justify-center gap-[10px] underline md:justify-start"
+                        ><img src="img/icon-3.png" alt="" />
+                        @davaypoigraem_nhk</a
+                    >
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="./js/scripts.js"></script>
+    </body>
+</html>
