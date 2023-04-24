@@ -14,8 +14,68 @@
     <body class="min-w-[320px]">
         @@include('./html/header.html')
         <main class="bg-lightBrown pb-[40px] lg:pb-[90px]">
-            <div class="custom__container pt-[20px]">
+            <div class="custom__container bg-grey pt-[20px] sm:bg-inherit">
                 @@include('./html/crumbs.html')
+                <section
+                    class="mb-10 flex flex-col gap-[20px] sm:flex-row lg:mb-[90px] lg:gap-[24px]"
+                >
+                    <div class="sm:w-[50%]">
+                        <div
+                            class="relative w-full overflow-hidden rounded-t-[50%] lg:h-full lg:rounded-t-none lg:rounded-bl-[269px] lg:rounded-tr-[269px]"
+                        >
+                            <img
+                                class="h-[315px] w-full object-cover lg:h-full"
+                                src="img/img-1.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="absolute bottom-5 left-0 right-0 flex justify-center lg:bottom-[30px] lg:right-[30px] lg:ml-[30px] lg:justify-end"
+                            >
+                                <a href="#" class="custom__block lg:p-2">
+                                    Заказать праздник
+                                </a>
+                                <a
+                                    href="#"
+                                    class="custom__block ml-[-10px] lg:ml-[-20px] lg:hidden lg:-translate-y-[30px]"
+                                >
+                                    Открыть прайс
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:w-[50%]">
+                        <div
+                            class="mb-10 w-full sm:mb-0 sm:flex sm:h-full sm:flex-col sm:justify-center sm:overflow-hidden sm:rounded-t-[50%] sm:bg-grey sm:px-5 sm:pb-4 sm:pt-[40px] lg:rounded-t-none lg:rounded-br-[269px] lg:rounded-tl-[269px] lg:pl-[50px] xl:items-start xl:pb-[30px] xl:pl-[84px] xl:pr-[57px] xl:pt-[112px]"
+                        >
+                            <h2 class="subtitle2 mb-5 lg:mb-[20px]">
+                                Ваш праздник без хлопот и с удовольствием в
+                                “Давай поиграем!”
+                            </h2>
+                            <p
+                                class="text text-center lg:mb-[47px] xl:text-left"
+                            >
+                                Если вы хотите порадовать своих родных и
+                                близких, ощутить гамму прекрасных эмоций и
+                                организовать незабываемый праздник, — то мы
+                                поможем вам в этом!
+                            </p>
+                            <div class="hidden justify-start lg:flex">
+                                <a href="#" class="custom__block">
+                                    Открыть <br />
+                                    прайс
+                                </a>
+                                <a
+                                    href="#"
+                                    class="custom__block xl:ml-[-20px] xl:-translate-y-[30px]"
+                                >
+                                    <img src="img/img-22.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="custom__container pt-[20px]">
                 <section class="mb-[40px]">
                     <h2 class="title mb-5 lg:text-left xl:mb-[30px]">
                         Мы знаем толк в развлечениях! Выбирай свою вечеринку:
