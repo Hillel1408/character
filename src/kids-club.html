@@ -14,17 +14,19 @@
     <body class="min-w-[320px]">
         @@include('./html/header.html')
         <main class="bg-lightBrown pb-[40px] lg:pb-[90px]">
-            <div class="custom__container bg-grey pt-[20px] sm:bg-inherit">
+            <div
+                class="custom__container mb-10 bg-grey pt-[20px] sm:bg-inherit lg:mb-0"
+            >
                 @@include('./html/crumbs.html')
                 <section
-                    class="mb-10 flex flex-col gap-[20px] sm:flex-row lg:mb-[90px] lg:gap-[24px]"
+                    class="flex flex-col gap-[20px] sm:flex-row lg:mb-[90px] lg:gap-[24px]"
                 >
                     <div class="sm:w-[50%]">
                         <div
                             class="relative w-full overflow-hidden rounded-t-[50%] lg:h-full lg:rounded-t-none lg:rounded-bl-[269px] lg:rounded-tr-[269px]"
                         >
                             <img
-                                class="h-[315px] w-full object-cover lg:h-full"
+                                class="h-[275px] w-full object-cover lg:h-full"
                                 src="img/img-1.jpg"
                                 alt=""
                             />
@@ -47,7 +49,7 @@
                         <div
                             class="mb-10 w-full sm:mb-0 sm:flex sm:h-full sm:flex-col sm:justify-center sm:overflow-hidden sm:rounded-t-[50%] sm:bg-grey sm:px-5 sm:pb-4 sm:pt-[40px] lg:rounded-t-none lg:rounded-br-[269px] lg:rounded-tl-[269px] lg:pl-[50px] xl:items-start xl:pb-[30px] xl:pl-[84px] xl:pr-[57px] xl:pt-[112px]"
                         >
-                            <h2 class="subtitle2 mb-5 lg:mb-[20px]">
+                            <h2 class="title mb-5 lg:mb-[20px]">
                                 Ваш праздник без хлопот и с удовольствием в
                                 “Давай поиграем!”
                             </h2>
@@ -75,8 +77,8 @@
                     </div>
                 </section>
             </div>
-            <div class="custom__container pt-[20px]">
-                <section class="mb-[40px]">
+            <div class="custom__container">
+                <section class="mb-[40px] xl:mb-[90px]">
                     <h2 class="title mb-5 lg:text-left xl:mb-[30px]">
                         Мы знаем толк в развлечениях! Выбирай свою вечеринку:
                     </h2>
@@ -167,7 +169,7 @@
                                 >Майнкрафт</span
                             >
                             <span
-                                class="left-4 rounded-[40px] bg-[rgba(255,255,255,0.5)] px-4 py-[14px] font-['Cormorant_Infant'] text-base text-brown xl:px-[24px] xl:py-[17px] xl:text-2xl"
+                                class="left-4 rounded-[40px] bg-[#6D5E3C] px-4 py-[14px] font-['Cormorant_Infant'] text-base text-[#EDEAE7] text-brown xl:px-[24px] xl:py-[17px] xl:text-2xl"
                                 >Любая ваша идея</span
                             >
                         </div>
@@ -196,7 +198,7 @@
                                 />
                             </div>
                             <p
-                                class="mb-5 text-center font-['Cormorant_Infant'] text-lg leading-5 text-green"
+                                class="mb-5 max-w-[310px] text-center font-['Cormorant_Infant'] text-lg leading-5 text-green"
                             >
                                 Свяжитесь с нами и мы подберем идеальный вариант
                                 для вашего праздника
@@ -209,7 +211,7 @@
                         </div>
                     </div>
                 </section>
-                <section>
+                <section class="xl:mb-[90px]">
                     <h2 class="title mb-[20px]">
                         Создаем праздники, которые дети запомнят навсегда
                     </h2>
@@ -228,7 +230,7 @@
                                 class="absolute bottom-5 left-0 right-0 text-center"
                             >
                                 <span
-                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3"
+                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3 font-['Cormorant_Infant'] text-base text-[#6D5E3C] lg:text-2xl"
                                 >
                                     Мыльное шоу
                                 </span>
@@ -246,7 +248,7 @@
                                 class="absolute bottom-5 left-0 right-0 text-center"
                             >
                                 <span
-                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3"
+                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3 font-['Cormorant_Infant'] text-base text-[#6D5E3C] lg:text-2xl"
                                 >
                                     Ленточное неоновое шоу
                                 </span>
@@ -264,7 +266,7 @@
                                 class="absolute bottom-5 left-0 right-0 text-center"
                             >
                                 <span
-                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3"
+                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3 font-['Cormorant_Infant'] text-base text-[#6D5E3C] lg:text-2xl"
                                 >
                                     Ростовые куклы
                                 </span>
@@ -282,7 +284,7 @@
                                 class="absolute bottom-5 left-0 right-0 text-center"
                             >
                                 <span
-                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3"
+                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3 font-['Cormorant_Infant'] text-base text-[#6D5E3C] lg:text-2xl"
                                 >
                                     Серебряное шоу
                                 </span>
@@ -300,7 +302,7 @@
                                 class="absolute bottom-5 left-0 right-0 text-center"
                             >
                                 <span
-                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3"
+                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3 font-['Cormorant_Infant'] text-base text-[#6D5E3C] lg:text-2xl"
                                 >
                                     Слайм шоу
                                 </span>
@@ -318,7 +320,7 @@
                                 class="absolute bottom-5 left-0 right-0 text-center"
                             >
                                 <span
-                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3"
+                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3 font-['Cormorant_Infant'] text-base text-[#6D5E3C] lg:text-2xl"
                                 >
                                     Пиньята
                                 </span>
@@ -336,7 +338,7 @@
                                 class="absolute bottom-5 left-0 right-0 text-center"
                             >
                                 <span
-                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3"
+                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3 font-['Cormorant_Infant'] text-base text-[#6D5E3C] lg:text-2xl"
                                 >
                                     Крио шоу
                                 </span>
@@ -354,7 +356,7 @@
                                 class="absolute bottom-5 left-0 right-0 text-center"
                             >
                                 <span
-                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3"
+                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3 font-['Cormorant_Infant'] text-base text-[#6D5E3C] lg:text-2xl"
                                 >
                                     Бумажное шоу
                                 </span>
@@ -372,7 +374,7 @@
                                 class="absolute bottom-5 left-0 right-0 text-center"
                             >
                                 <span
-                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3"
+                                    class="rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3 font-['Cormorant_Infant'] text-base text-[#6D5E3C] lg:text-2xl"
                                 >
                                     Упакуем ваш подарок!
                                 </span>
@@ -381,7 +383,7 @@
                     </div>
                 </section>
                 <section
-                    class="mb-[40px] flex flex-col gap-5 md:flex-row-reverse lg:gap-[100px]"
+                    class="mb-[40px] flex flex-col gap-5 md:flex-row-reverse lg:gap-[100px] xl:mb-[90px]"
                 >
                     <div class="flex flex-col gap-5">
                         <h2 class="title">Ваши улыбки - наша работа</h2>
@@ -456,7 +458,7 @@
                         >
                     </div>
                 </section>
-                <section class="mb-[40px]">
+                <section class="mb-[40px] xl:mb-[90px]">
                     <h2 class="title mb-5 lg:text-left xl:mb-0">
                         Творческие мастер-классы на любой вкус:
                     </h2>
@@ -563,7 +565,9 @@
                         </div>
                     </div>
                 </section>
-                <section class="swiper swiper-image mb-5 w-full lg:mb-[30px]">
+                <section
+                    class="swiper swiper-image mb-5 w-full lg:mb-[30px] xl:mb-[90px]"
+                >
                     <div class="swiper-wrapper sm:flex">
                         <div class="swiper-slide">
                             <img
@@ -622,13 +626,13 @@
                                 <p>
                                     Работаем только по предварительной записи!
                                 </p>
-                                <p>
-                                    Мы на связи Whats App:
+                                <p class="lg:text-left">
+                                    Мы на связи Whats App: <br />
                                     <a href="https://wa.clck.bar/79146756901">
                                         +7(914)675-69-01
                                     </a>
                                 </p>
-                                <p class="xl:text-start">
+                                <p class="lg:text-start">
                                     Наш адрес: <br />
                                     Находка, Ленинская 20
                                 </p>
