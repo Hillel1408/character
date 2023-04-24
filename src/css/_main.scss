@@ -31,7 +31,24 @@
 .swiper-wedding .swiper-pagination-bullet {
     @apply h-[14px] w-[14px] bg-[#d9d9d9] opacity-[1];
 }
-
 .swiper-reviews .swiper-pagination-bullet {
     @apply h-[14px] w-[14px] bg-[#d9d9d9] opacity-[1];
+}
+.advantage {
+    @apply mt-[-36px] flex h-[277px] w-[225px] flex-col items-center justify-center gap-5 rounded-[169px] border-[8px] border-lightBrown bg-grey sm:mt-0 lg:m-[initial] lg:ml-[-48px] lg:h-[369px] lg:w-[300px];
+}
+.advantage p {
+    @apply max-w-[181px] text-center font-['Cormorant_Infant'] text-lg leading-5 text-green;
+}
+.party {
+    @apply left-4 rounded-[40px] bg-[rgba(255,255,255,0.5)] px-4 py-[14px] font-['Cormorant_Infant'] text-base text-brown xl:px-[24px] xl:py-[17px] xl:text-2xl;
+}
+.feast {
+    @apply rounded-[40px] bg-[rgba(255,255,255,0.9)] px-4 py-3 font-['Cormorant_Infant'] text-base text-[#6D5E3C] lg:text-2xl;
+}
+.master-class {
+    @apply relative w-full overflow-hidden rounded-[40px];
+}
+.creation {
+    @apply left-4 rounded-[40px] bg-[rgba(255,255,255,0.5)] px-4 py-[14px] font-['Cormorant_Infant'] text-base text-brown xl:px-[34px] xl:py-[17px] xl:text-2xl;
 }
