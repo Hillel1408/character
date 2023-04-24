@@ -20,7 +20,7 @@
     @apply inline-block w-[290px] rounded-[40px] bg-[rgba(217,217,217,0.9)] py-5 text-center font-['Cormorant_Infant'] text-2xl leading-[100%] text-brown;
 }
 .custom__container {
-    @apply px-3 xl:mx-auto xl:max-w-[1280px];
+    @apply overflow-hidden px-3 xl:mx-auto xl:max-w-[1280px];
 }
 .mobile-menu {
     @apply invisible opacity-0;
