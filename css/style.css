@@ -617,6 +617,15 @@ html {
 .top-\[61px\]{
   top: 61px;
 }
+.bottom-0{
+  bottom: 0px;
+}
+.bottom-\[-3px\]{
+  bottom: -3px;
+}
+.right-\[-3px\]{
+  right: -3px;
+}
 .z-\[1\]{
   z-index: 1;
 }
@@ -706,6 +715,9 @@ html {
 .h-full{
   height: 100%;
 }
+.h-\[23px\]{
+  height: 23px;
+}
 .\!w-\[60px\]{
   width: 60px !important;
 }
@@ -727,20 +739,20 @@ html {
 .w-full{
   width: 100%;
 }
+.w-\[23px\]{
+  width: 23px;
+}
 .min-w-\[300px\]{
   min-width: 300px;
 }
 .min-w-\[320px\]{
   min-width: 320px;
 }
-.min-w-\[340px\]{
-  min-width: 340px;
+.min-w-\[350px\]{
+  min-width: 350px;
 }
 .min-w-\[48px\]{
   min-width: 48px;
-}
-.min-w-\[350px\]{
-  min-width: 350px;
 }
 .max-w-\[1056px\]{
   max-width: 1056px;
@@ -894,6 +906,10 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(237 234 231 / var(--tw-bg-opacity));
 }
+.bg-green{
+  --tw-bg-opacity: 1;
+  background-color: rgb(92 112 78 / var(--tw-bg-opacity));
+}
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -978,6 +994,10 @@ html {
 .text-green{
   --tw-text-opacity: 1;
   color: rgb(92 112 78 / var(--tw-text-opacity));
+}
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .underline{
   text-decoration-line: underline;
@@ -1095,6 +1115,15 @@ html {
   line-height: 100%;
   --tw-text-opacity: 1;
   color: rgb(109 94 60 / var(--tw-text-opacity));
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.custom__block:hover{
+  z-index: 10;
+  background-color: rgba(109,94,60,1);
+  --tw-text-opacity: 1;
+  color: rgb(217 217 217 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px){
@@ -1138,6 +1167,15 @@ html {
   line-height: 100%;
   --tw-text-opacity: 1;
   color: rgb(109 94 60 / var(--tw-text-opacity));
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.custom__btn:hover{
+  z-index: 10;
+  background-color: rgba(109,94,60,1);
+  --tw-text-opacity: 1;
+  color: rgb(217 217 217 / var(--tw-text-opacity));
 }
 
 .custom__container{
